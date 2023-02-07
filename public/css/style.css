@@ -1,0 +1,88 @@
+html{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100%;
+  background-color:aliceblue;
+  font-family: 'Nunito', sans-serif;
+}
+
+.login-container{
+  width: 20vw;
+}
+
+.login-image{
+  border-radius:20%;
+  height: 15vh;
+}
+
+.login-title{
+  font-size: 2rem;
+}
+
+.input-container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.input-box{
+  height: 5vh;
+  border-style:solid;
+  border-width: 0.5px;
+  border-radius:5px ;
+  margin-bottom: -1px;
+}
+
+.input-box:focus{
+  border:solid #c0dbf7;
+  outline: none;
+  z-index: 2;
+}
+
+[name = "fname-input"]{
+  border-bottom-right-radius:0 ;
+  border-bottom-left-radius:0 ;
+
+}
+
+[name = "sname-input"]{
+  border-radius: 0;
+  
+}
+
+[name = "email-input"]{
+  border-top-right-radius:0 ;
+  border-top-left-radius:0 ;
+}
+
+
+.checkbox-container{
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login-button{
+  margin: 10px 0;
+  background-color: #0275d8;
+  border: none;
+  border-radius: 5px;
+  height: 5vh;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.login-button:hover{
+  transition: .3s;
+  background-color: #005aaa;
+}
+
+
